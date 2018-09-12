@@ -1,0 +1,187 @@
+/*------------------------------------------------------------
+// 
+// 文件名：boxModel.css
+// 文件功能描述：cttq公共css文件
+// 创 建 人：
+// 创建日期：2016/11/28
+// 修 改 人：
+// 修改日期：
+// 修改描述：
+//-----------------------------------------------------------*/
+/*bm == boxmodel*/
+.hide{
+	display: none !important;
+}
+/*盒子模型*/
+/*每个要进行flex布局的  都要加上bm*/
+.bm{
+    display: -webkit-box; 
+    display: -moz-box; 
+    display:-webkit-flex;
+    display: -ms-flexbox;
+    display:flex;
+}
+/*盒子模型内元素 - 是否垂直排列 - 使用ver后盒子模型内元素垂直、水平排序对调*/
+/*这个是垂直轴排列*/
+.bm-ver {
+	-webkit-flex-direction:column;
+	/*水平排列*/
+	flex-direction:column;
+}
+/*盒子模型内元素 - 垂直方向排序 - 垂直居中*/
+/*垂直居中*/
+.bm-ac {
+	-webkit-align-items:center;
+	/*在交叉轴上如何剧中*/
+	align-items:center;
+}
+/*盒子模型内元素 - 垂直方向排序 - 位于底边*/
+.bm-ae {
+	-webkit-align-items:flex-end;
+	align-items:flex-end;
+}
+/*盒子模型内元素 - 水平方向排序 - 水平居中*/
+/*水平居中*/
+.bm-pc {
+	-webkit-justify-content:center;
+	justify-content:center
+}
+/*盒子模型内元素 - 水平方向排序 - 位于末尾*/
+
+.bm-pe {
+	-webkit-justify-content:flex-end;
+	justify-content:flex-end;
+}
+/*盒子模型内元素 - 水平方向排序 - 两端对齐*/
+.bm-pj {
+	-webkit-justify-content:space-between;
+	justify-content:space-between;
+}
+/*盒子模型内元素 - 空间大小分配比例*/
+.bm-f1 {
+	-webkit-flex:1;
+	flex: 1;
+}
+.bm-f2 {
+	-webkit-flex:2;
+	flex: 2;
+}
+.bm-f3 {
+	-webkit-flex:3;
+	flex: 3;
+}
+.bm-f4 {
+	-webkit-flex:4;
+	flex: 4;
+}
+/*盒子模型内元素 - 背景图片类别*/
+.bm-img {
+	-webkit-background-size:contain;
+	background-size:contain;
+	background-repeat:no-repeat;
+	background-position:center
+}
+.bm-img1 {
+	-webkit-background-size:cover;
+	background-size:cover;
+	background-repeat:no-repeat;
+	background-position:center
+}
+.bm-img2 {
+	background-repeat:repeat-x;
+	background-size:auto 100%
+}
+.bm-img3 {
+	background-repeat:repeat-y;
+	background-size:100% auto
+}
+.bm-img4 {
+	-webkit-background-size:100% auto;
+	background-size:100% auto;
+	background-repeat:no-repeat;
+	background-position:center
+}
+.bm-img5 {
+	-webkit-background-size:auto 100%;
+	background-size:auto 100%;
+	background-repeat:no-repeat;
+	background-position:center
+}
+.bm-img6 {
+	background-repeat:no-repeat;
+	background-position:center
+}
+.bm-img7 {
+	-webkit-background-size:100% 100%;
+	background-size:100% 100%;
+	background-repeat:no-repeat;
+	background-position:center
+}
+/*盒子模型内元素 - 水平排列方向*/
+.bm-rev {
+	-webkit-flex-direction:row;
+	flex-direction:row;
+}
+.um-vp {
+	margin:0;
+	padding:0;
+	overflow-x:hidden;
+	-webkit-text-size-adjust:none;
+	-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-user-select:none
+}
+.um-vp .up {
+	top:0;
+	left:0;
+	width:100%;
+	min-height:100%;
+	max-height:100%;
+	position:absolute;
+	border:0
+}
+.font12{
+	font-size: 12px;
+}
+.font13{
+	font-size: 13px;
+}
+.font14{
+	font-size: 14px;
+}
+.font15{
+	font-size: 15px;
+}
+.font16{
+	font-size: 16px;
+}
+.font17{
+	font-size: 17px;
+}
+.font18{
+	font-size: 18px;
+}
+.font19{
+	font-size: 19px;
+}
+.font20{
+	font-size: 20px;
+}
+.font21{
+	font-size: 21px;
+}
+.font22{
+	font-size: 22px;
+}
+.font40{
+	font-size: 40px;
+}
+.margintop10{
+	margin-top: 10px;
+}
+.margintop30{
+	margin-top: 30px;
+}
+.margintop4{
+	margin-top: 4px;
+}
+
